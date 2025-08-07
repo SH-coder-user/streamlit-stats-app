@@ -1,6 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from app.analysis import generate_data, analyze_data
+from analysis import generate_data, analyze_data
 
 st.title("📊 난수 기반 통계 분석기")
 

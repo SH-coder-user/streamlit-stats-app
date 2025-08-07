@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY ./app ./app
 
 # 포트 설정 (Streamlit 기본 포트는 8501)
-EXPOSE 8501
+EXPOSE 8786
 
 # 실행 명령
 CMD ["streamlit", "run", "app/main.py", "--server.port=8501", "--server.address=0.0.0.0"]
